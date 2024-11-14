@@ -12,3 +12,8 @@
 #  Celsius is the following:
 
 # degrees_celsius = (degrees_fahrenheit - 32) * 5.0/9.0
+
+fahrenheit=input("enter temperature")
+fahrenheit=float(fahrenheit)
+degree_celsius  = (fahrenheit - 32) * 5.0/9.0
+print(degree_celsius)
